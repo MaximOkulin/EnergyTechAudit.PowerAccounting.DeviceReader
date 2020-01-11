@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+    <xs:element name="ParametersCollection" type="Parameters"></xs:element>
+
+    <xs:complexType name="Parameter">
+        <xs:sequence>
+            <xs:element minOccurs="1" maxOccurs="1" name="Name" type="xs:string"/>
+            <xs:element minOccurs="1" maxOccurs="1" name="Id" type="xs:int"/>
+            <xs:element minOccurs="1" maxOccurs="1" name="HeatInput">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="One"/>
+                        <xs:enumeration value="Two"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element minOccurs="1" maxOccurs="1" name="DeviceParameterCode">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="None"/>
+                        <xs:enumeration value="t1_1Type"/>
+                        <xs:enumeration value="t2_1Type"/>
+                        <xs:enumeration value="t3_1Type"/>
+                        <xs:enumeration value="V1_1Type"/>
+                        <xs:enumeration value="V2_1Type"/>
+                        <xs:enumeration value="V3_1Type"/>
+                        <xs:enumeration value="M1_1Type"/>
+                        <xs:enumeration value="M2_1Type"/>
+                        <xs:enumeration value="M3_1Type"/>
+                        <xs:enumeration value="P1_1Type"/>
+                        <xs:enumeration value="P2_1Type"/>
+                        <xs:enumeration value="Mg_1TypeP"/>
+                        <xs:enumeration value="Qo_1TypeP"/>
+                        <xs:enumeration value="Qg_1TypeP"/>
+                        <xs:enumeration value="dt_1TypeP"/>
+                        <xs:enumeration value="tswTypeP"/>
+                        <xs:enumeration value="taTypeP"/>
+                        <xs:enumeration value="QntType_1HIP"/>
+                        <xs:enumeration value="QntType_1P"/>
+                        <xs:enumeration value="G1Type"/>
+                        <xs:enumeration value="G2Type"/>
+                        <xs:enumeration value="G3Type"/>
+                        <xs:enumeration value="t1_2Type"/>
+                        <xs:enumeration value="t2_2Type"/>
+                        <xs:enumeration value="t3_2Type"/>
+                        <xs:enumeration value="V1_2Type"/>
+                        <xs:enumeration value="V2_2Type"/>
+                        <xs:enumeration value="V3_2Type"/>
+                        <xs:enumeration value="M1_2Type"/>
+                        <xs:enumeration value="M2_2Type"/>
+                        <xs:enumeration value="M3_2Type"/>
+                        <xs:enumeration value="P1_2Type"/>
+                        <xs:enumeration value="P2_2Type"/>
+                        <xs:enumeration value="Mg_2TypeP"/>
+                        <xs:enumeration value="Qo_2TypeP"/>
+                        <xs:enumeration value="Qg_2TypeP"/>
+                        <xs:enumeration value="dt_2TypeP"/>
+                        <xs:enumeration value="tsw_2TypeP"/>
+                        <xs:enumeration value="ta_2TypeP"/>
+                        <xs:enumeration value="QntType_2HIP"/>
+                        <xs:enumeration value="QntType_2P"/>
+                        <xs:enumeration value="G1_2Type"/>
+                        <xs:enumeration value="G2_2Type"/>
+                        <xs:enumeration value="G3_2Type"/>
+                        <xs:enumeration value="DopInpImpP_Type"/>
+                        <xs:enumeration value="P3P_Type"></xs:enumeration>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element minOccurs="1" maxOccurs="1" name="IntegrationDeviceParameterCode">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="None"/>
+                        <xs:enumeration value="V1_1TypeSum"/>
+                        <xs:enumeration value="V2_1TypeSum"/>
+                        <xs:enumeration value="V3_1TypeSum"/>
+                        <xs:enumeration value="M1_1TypeSum"/>
+                        <xs:enumeration value="M2_1TypeSum"/>
+                        <xs:enumeration value="M3_1TypeSum"/>
+                        <xs:enumeration value="Mg_1TypePSum"/>
+                        <xs:enumeration value="Qo_1TypePSum"/>
+                        <xs:enumeration value="Qg_1TypePSum"/>
+                        <xs:enumeration value="QntType_1HIPSum"/>
+                        <xs:enumeration value="QntType_1PSum"/>
+                        <xs:enumeration value="V1_2TypeSum"/>
+                        <xs:enumeration value="V2_2TypeSum"/>
+                        <xs:enumeration value="V3_2TypeSum"/>
+                        <xs:enumeration value="M1_2TypeSum"/>
+                        <xs:enumeration value="M2_2TypeSum"/>
+                        <xs:enumeration value="M3_2TypeSum"/>
+                        <xs:enumeration value="Mg_2TypePSum"/>
+                        <xs:enumeration value="Qo_2TypePSum"/>
+                        <xs:enumeration value="Qg_2TypePSum"/>
+                        <xs:enumeration value="QntType_2HIPSum"/>
+                        <xs:enumeration value="QntType_2PSum"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element minOccurs="1" maxOccurs="1" name="DecimalCode">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="None"/>
+                        <xs:enumeration value="tTypeFractDigNum"/>
+                        <xs:enumeration value="tTypeFractDigNum2"/>
+                        <xs:enumeration value="GTypeFractDigNum1"/>
+                        <xs:enumeration value="VTypeFractDigNum1"/>
+                        <xs:enumeration value="MTypeFractDigNum1"/>
+                        <xs:enumeration value="PTypeFractDigNum1"/>
+                        <xs:enumeration value="QoTypeFractDigNum1"/>
+                        <xs:enumeration value="VTypeFractDigNum2"/>
+                        <xs:enumeration value="MTypeFractDigNum2"/>
+                        <xs:enumeration value="QoTypeFractDigNum2"/>
+                        <xs:enumeration value="MgTypeFractDigNum1"/>
+                        <xs:enumeration value="dtTypeFractDigNum1"/>
+                        <xs:enumeration value="tswTypeFractDigNum1"/>
+                        <xs:enumeration value="taTypeFractDigNum1"/>
+                        <xs:enumeration value="PTypeFractDigNum2"/>
+                        <xs:enumeration value="MgTypeFractDigNum2"/>
+                        <xs:enumeration value="dtTypeFractDigNum2"/>
+                        <xs:enumeration value="tswTypeFractDigNum2"/>
+                        <xs:enumeration value="taTypeFractDigNum2"/>
+                        <xs:enumeration value="GTypeFractDigNum2"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element minOccurs="1" maxOccurs="1" name="ParseType">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="None"/>
+                        <xs:enumeration value="Int"/>
+                        <xs:enumeration value="Float"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+        </xs:sequence>
+        <xs:attribute name="BeInstant" type="xs:boolean" use="required"/>
+        <xs:attribute name="BeFinal" type="xs:boolean" use="required"/>
+        <xs:attribute name="BeFinalInstant" type="xs:boolean" use="required"/>
+        <xs:attribute name="BeHourly" type="xs:boolean" use="required"/>
+        <xs:attribute name="BeDaily" type="xs:boolean" use="required"/>
+        <xs:attribute name="BeMonthly" type="xs:boolean" use="required"/>
+    </xs:complexType>
+
+    <xs:complexType name="Parameters">
+        <xs:sequence>
+            <xs:element maxOccurs="unbounded" name="Parameter">
+                <xs:complexType>
+                    <xs:complexContent>
+                        <xs:extension base="Parameter"> </xs:extension>
+                    </xs:complexContent>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    
+    
+    
+    
+   
+    
+</xs:schema>

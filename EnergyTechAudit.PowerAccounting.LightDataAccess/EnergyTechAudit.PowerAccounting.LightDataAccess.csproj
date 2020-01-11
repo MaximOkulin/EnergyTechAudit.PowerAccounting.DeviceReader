@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{797E9965-0E82-4D01-A241-BEAFB8AE6E32}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>EnergyTechAudit.PowerAccounting.LightDataAccess</RootNamespace>
+    <AssemblyName>EnergyTechAudit.PowerAccounting.LightDataAccess</AssemblyName>
+    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin\EntityHistory.cs" />
+    <Compile Include="Admin\SystemSetting.cs" />
+    <Compile Include="Admin\User.cs" />
+    <Compile Include="Analytics\Argument.cs" />
+    <Compile Include="Analytics\ConditionPart.cs" />
+    <Compile Include="Analytics\EmergencyCondition.cs" />
+    <Compile Include="Analytics\Expression.cs" />
+    <Compile Include="Analytics\FieldValues.cs" />
+    <Compile Include="Analytics\MultipleTitle.cs" />
+    <Compile Include="Analytics\PreCondition.cs" />
+    <Compile Include="Analytics\RawHeatCurve.cs" />
+    <Compile Include="Analytics\Requirement.cs" />
+    <Compile Include="Analytics\StringFormatPart.cs" />
+    <Compile Include="Analytics\SurrogateArgument.cs" />
+    <Compile Include="Analytics\UserInputValue.cs" />
+    <Compile Include="Business\AccessPoint.cs" />
+    <Compile Include="Business\AccessPointLinkBuilding.cs" />
+    <Compile Include="Business\AccessPointStatusConnectionLog.cs" />
+    <Compile Include="Business\Archive.cs" />
+    <Compile Include="Business\Building.cs" />
+    <Compile Include="Business\Channel.cs" />
+    <Compile Include="Business\CsdModem.cs" />
+    <Compile Include="Business\DeviceEvent.cs" />
+    <Compile Include="Business\DeviceLinkDynamicParameter.cs" />
+    <Compile Include="Business\DeviceParameterSetting.cs" />
+    <Compile Include="Business\DeviceReader.cs" />
+    <Compile Include="Business\DeviceReaderErrorLog.cs" />
+    <Compile Include="Business\DeviceReaderLinkScheduleItem.cs" />
+    <Compile Include="Business\DeviceTechnicalParameter.cs" />
+    <Compile Include="Business\EmergencyLog.cs" />
+    <Compile Include="Business\EmergencyMessage.cs" />
+    <Compile Include="Business\EmergencySituationParameter.cs" />
+    <Compile Include="Business\EmergencyTimeSignature.cs" />
+    <Compile Include="Business\Hub.cs" />
+    <Compile Include="Business\IntegrationArchiveInfo.cs" />
+    <Compile Include="Business\MeasurementDevice.cs" />
+    <Compile Include="Business\MeasurementDeviceJournal.cs" />
+    <Compile Include="Business\MeasurementDeviceLinkScheduleItem.cs" />
+    <Compile Include="Business\MeasurementDeviceStatusConnectionLog.cs" />
+    <Compile Include="Business\MobileDevice.cs" />
+    <Compile Include="Business\MobileEmergencyMessage.cs" />
+    <Compile Include="Business\ParameterMapDeviceParameter.cs" />
+    <Compile Include="Business\Placement.cs" />
+    <Compile Include="Business\RegulatorParameterValue.cs" />
+    <Compile Include="Business\TimeSignature.cs" />
+    <Compile Include="Business\UserAdditionalInfo.cs" />
+    <Compile Include="Business\UserAdditionalInfoLinkScheduleItem.cs" />
+    <Compile Include="Business\UserLinkChannel.cs" />
+    <Compile Include="Business\UserLinkEmergencyNotificationType.cs" />
+    <Compile Include="CoalEquivalent\Argument.cs" />
+    <Compile Include="CoalEquivalent\CalculateCondition.cs" />
+    <Compile Include="Core\DynamicParameterValue.cs" />
+    <Compile Include="Core\ScheduleItem.cs" />
+    <Compile Include="Dictionaries\Baud.cs" />
+    <Compile Include="Dictionaries\City.cs" />
+    <Compile Include="Dictionaries\ComPort.cs" />
+    <Compile Include="Dictionaries\DataBit.cs" />
+    <Compile Include="Dictionaries\Device.cs" />
+    <Compile Include="Dictionaries\DeviceEventParameter.cs" />
+    <Compile Include="Dictionaries\DeviceParameter.cs" />
+    <Compile Include="Dictionaries\DeviceReaderType.cs" />
+    <Compile Include="Dictionaries\Dimension.cs" />
+    <Compile Include="Dictionaries\District.cs" />
+    <Compile Include="Dictionaries\DynamicParameter.cs" />
+    <Compile Include="Dictionaries\InternalDeviceEvent.cs" />
+    <Compile Include="Dictionaries\MeasurementUnit.cs" />
+    <Compile Include="Dictionaries\MeteoDataSourceType.cs" />
+    <Compile Include="Dictionaries\Parameter.cs" />
+    <Compile Include="Dictionaries\ParameterDictionaryValue.cs" />
+    <Compile Include="Dictionaries\Parity.cs" />
+    <Compile Include="Dictionaries\PhysicalParameter.cs" />
+    <Compile Include="Dictionaries\PortType.cs" />
+    <Compile Include="Dictionaries\ResourceSystemType.cs" />
+    <Compile Include="Dictionaries\ScheduleType.cs" />
+    <Compile Include="Dictionaries\StopBit.cs" />
+    <Compile Include="Dictionaries\TransportServerModel.cs" />
+    <Compile Include="EnumTypes\Operation.cs" />
+    <Compile Include="EnumTypes\PeriodType.cs" />
+    <Compile Include="Interfaces\DictionaryEntityBase.cs" />
+    <Compile Include="Interfaces\IDatabaseContext.cs" />
+    <Compile Include="Interfaces\IEntity.cs" />
+    <Compile Include="Interfaces\ISuccessConnectionPercent.cs" />
+    <Compile Include="LightDatabaseContext.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Rules\DeviceArchiveTimeConverter.cs" />
+    <Compile Include="Rules\MeasurementUnitConverter.cs" />
+    <Compile Include="Types\DeviceReaderCommand.cs" />
+    <Compile Include="Types\DeviceReaderCommandEntityInfo.cs" />
+    <Compile Include="Types\EntityInfo.cs" />
+    <Compile Include="Types\EntityTypeHelper.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ParametersCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="VKT7Parameters.xsd">
+
+  <Parameter BeInstant="true" BeFinal="false" BeFinalInstant="false" BeHourly="true" BeDaily="true" BeMonthly="true">
+    <Name>t1_1Type</Name>
+    <Id>0</Id>
+    <HeatInput>One</HeatInput>
+    <DeviceParameterCode>t1_1Type</DeviceParameterCode>
+    <IntegrationDeviceParameterCode>None</IntegrationDeviceParameterCode>
+    <DecimalCode>tTypeFractDigNum</DecimalCode>
+    <ParseType>Int</ParseType>
+  </Parameter>
+
+  <Parameter BeInstant="true" BeFinal="false" BeFinalInstant="false" BeHourly="true" BeDaily="true" BeMonthly="true">
+    <Name>t2_1Type</Name>
+    <Id>1</Id>
+    <HeatInput>One</HeatInput>
+    <DeviceParameterCode>t2_1Type</DeviceParameterCode>
+    <IntegrationDeviceParameterCode>None</IntegrationDeviceParameterCode>
+    <DecimalCode>tTypeFractDigNum</DecimalCode>
+    <ParseType>Int</ParseType>
+  </Parameter>
+
+  <Parameter BeInstant="true" BeFinal="false" BeFinalInstant="false" BeHourly="true" BeDaily="true" BeMonthly="true">
+    <Name>t3_1Type</Name>
+    <Id>2</Id>
+    <HeatInput>One</HeatInput>
+    <DeviceParameterCode>t3_1Type</DeviceParameterCode>
+    <IntegrationDeviceParameterCode>None</IntegrationDeviceParameterCode>
+    <DecimalCode>tTypeFractDigNum</DecimalCode>
+    <ParseType>Int</ParseType>
+  </Parameter>
+
+  <Parameter BeInstant="false" BeFinal="true" BeFinalInstant="true" BeHourly="true" BeDaily="true" BeMonthly="true">
+    <Name>V1_1Type</Name>
+    <Id>3</Id>
+    <HeatInput>One</HeatInput>
+    <DeviceParameterCode>V1_1Type</DeviceParameterCode>
+    <IntegrationDeviceParameterCode>V1_1TypeSum</IntegrationDeviceParameterCode>
+    <DecimalCode>VTypeFractDigNum1</DecimalCode>
+    <ParseType>Int</ParseType>
+  </Parameter>
+
+  <Parameter BeInstant="false" BeFinal="true" BeFinalInstant="true" BeHourly="true" BeDaily="true" BeMonthly="true">
+    <Name>V2_1Type</Name>
+    <Id>4</Id>
+    <HeatInput>One</HeatInput>
+    <DeviceParameterCode>V2_1Type</DeviceParameterCode>
+    <IntegrationDeviceParameterCode>V2_1TypeSum</IntegrationDeviceParameterCode>
+    <DecimalCode>VTypeFractDigNum1</DecimalCode>
+    <ParseType>Int</ParseType>
+  </Parameter>
+
+  <Parameter BeInstant="false" BeFinal="true" BeFinalInstant="true" BeHourly="true" BeDaily="true" BeMonthly="true">
+    <Name>V3_1Type</Name>
+    <Id>5</Id>
+    <HeatInput>One</HeatInput>
+    <DeviceParameterCode>V3_1Type</DeviceParameterCode>
+    <IntegrationDeviceParameterCode>V3_1TypeSum</IntegrationDeviceParameterCode>
+    <DecimalCode>VTypeFractDigNum1</DecimalCode>
+    <ParseType>Int</ParseType>
+  </Parameter>
+
+  <Parameter BeInstant="false" BeFinal="true" BeFinalInstant="true" BeHourly="true" BeDaily="true" BeMonthly="true">
+    <Name>M1_1Type</Name>
+    <Id>6</Id>
+    <HeatInput>One</HeatInput>
+    <DeviceParameterCode>M1_1Type</DeviceParameterCode>
+    <IntegrationDeviceParameterCode>M1_1TypeSum</IntegrationDeviceParameterCode>
+    <DecimalCode>MTypeFractDigNum1</DecimalCode>
+    <ParseType>Int</ParseType>
+  </Parameter>
+
+  <Parameter BeInstant="false" BeFinal="true" BeFinalInstant="true" BeHourly="true" BeDaily="true" BeMonthly="true">
+    <Name>M2_1Type</Name>
+    <Id>7</Id>
+    <HeatInput>One</HeatInput>
+    <DeviceParameterCode>M2_1Type</DeviceParameterCode>
+    <IntegrationDeviceParameterCode>M2_1TypeSum</IntegrationDeviceParameterCode>
+    <DecimalCode>MTypeFractDigNum1</DecimalCode>
+    <ParseType>Int</ParseType>
+  </Parameter>
+
+  <Parameter BeInstant="false" BeFinal="true" BeFinalInstant="true" BeHourly="true" BeDaily="true" BeMonthly="true">
+    <Name>M3_1Type</Name>
+    <Id>8</Id>
+    <HeatInput>One</HeatInput>
+    <DeviceParameterCode>M3_1Type</DeviceParameterCode>
+    <IntegrationDeviceParameterCode>M3_1TypeSum</IntegrationDeviceParameterCode>
+    <DecimalCode>MTypeFractDigNum1</DecimalCode>
+    <ParseType>Int</ParseType>
+  </Parameter>
+
+  <Parameter BeInstant="true" BeFinal="false" BeFinalInstant="false" BeHourly="true" BeDaily="true" BeMonthly="true">
+    <Name>P1_1Type</Name>
+    <Id>9</Id>
+    <HeatInput>One</HeatInput>
+    <DeviceParameterCode>P1_1Type</DeviceParameterCode>
+    <IntegrationDeviceParameterCode>None</IntegrationDeviceParameterCode>
+    <DecimalCode>PTypeFractDigNum1</DecimalCode>
+    <ParseType>Int</ParseType>
+  </Parameter>
+
+  <Parameter BeInstant="true" BeFinal="false" BeFinalInstant="false" BeHourly="true" BeDaily="true" BeMonthly="true">
+    <Name>P2_1Type</Name>
+    <Id>10</Id>
+    <HeatInput>One</HeatInput>
+    <DeviceParameterCode>P2_1Type</DeviceParameterCode>
+    <IntegrationDeviceParameterCode>None</IntegrationDeviceParameterCode>
+    <DecimalCode>PTypeFractDigNum1</DecimalCode>
+    <ParseType>Int</ParseType>
+  </Parameter>
+
+  <Parameter BeInstant="false" BeFinal="true" BeFinalInstant="true" BeHourly="true" BeDaily="true" BeMonthly="true">
+    <Name>Mg_1TypeP</Name>
+    <Id>11</Id>
+    <HeatInput>One</HeatInput>
+    <DeviceParameterCode>Mg_1TypeP</DeviceParameterCode>
+    <IntegrationDeviceParameterCode>Mg_1TypePSum</IntegrationDeviceParameterCode>
+    <DecimalCode>MgTypeFractDigNum1</DecimalCode>
+    <ParseType>Int</ParseType>
+  </Parameter>
+
+  <Parameter BeInstant="false" BeFinal="true" BeFinalInstant="true" BeHourly="true" BeDaily="true" BeMonthly="true">
+    <Name>Qo_1TypeP</Name>
+    <Id>12</Id>
+    <HeatInput>One</HeatInput>
+    <DeviceParameterCode>Qo_1TypeP</DeviceParameterCode>
+    <IntegrationDeviceParameterCode>Qo_1TypePSum</IntegrationDeviceParameterCode>
+    <DecimalCode>QoTypeFractDigNum1</DecimalCode>
+    <ParseType>Int</ParseType>
+  </Parameter>
+
+  <Parameter BeInstant="false" BeFinal="true" BeFinalInstant="true" BeHourly="true" BeDaily="true" BeMonthly="true">
+    <Name>Qg_1TypeP</Name>
+    <Id>13</Id>
+    <HeatInput>One</HeatInput>
+    <DeviceParameterCode>Qg_1TypeP</DeviceParameterCode>
+    <IntegrationDeviceParameterCode>Qg_1TypePSum</IntegrationDeviceParameterCode>
+    <DecimalCode>QoTypeFractDigNum1</DecimalCode>
+    <ParseType>Int</ParseType>
+  </Parameter>
+
+  <Parameter BeInstant="true" BeFinal="false" BeFinalInstant="false" BeHourly="true" BeDaily="true" BeMonthly="true">
+    <Name>dt_1TypeP</Name>
+    <Id>14</Id>
+    <HeatInput>One</HeatInput>
+    <DeviceParameterCode>dt_1TypeP</DeviceParameterCode>
+    <IntegrationDeviceParameterCode>None</IntegrationDeviceParameterCode>
+    <DecimalCode>dtTypeFractDigNum1</DecimalCode>
+    <ParseType>Int</ParseType>
+  </Parameter>
+
+  <Parameter BeInstant="true" BeFinal="false" BeFinalInstant="false" BeHourly="true" BeDaily="true" BeMonthly="true">
+    <Name>tswTypeP</Name>
+    <Id>15</Id>
+    <HeatInput>One</HeatInput>
+    <DeviceParameterCode>tswTypeP</DeviceParameterCode>
+    <IntegrationDeviceParameterCode>None</IntegrationDeviceParameterCode>
+    <DecimalCode>tswTypeFractDigNum1</DecimalCode>
+    <ParseType>Int</ParseType>
+  </Parameter>
+
+  <Parameter BeInstant="true" BeFinal="false" BeFinalInstant="false" BeHourly="true" BeDaily="true" BeMonthly="true">
+    <Name>taTypeP</Name>
+    <Id>16</Id>
+    <HeatInput>One</HeatInput>
+    <DeviceParameterCode>taTypeP</DeviceParameterCode>
+    <IntegrationDeviceParameterCode>None</IntegrationDeviceParameterCode>
+    <DecimalCode>taTypeFractDigNum1</DecimalCode>
+    <ParseType>Int</ParseType>
+  </Parameter>
+
+  <Parameter BeInstant="false" BeFinal="true" BeFinalInstant="true" BeHourly="true" BeDaily="true" BeMonthly="true">
+    <Name>QntType_1HIP</Name>
+    <Id>17</Id>
+    <HeatInput>One</HeatInput>
+    <DeviceParameterCode>QntType_1HIP</DeviceParameterCode>
+    <IntegrationDeviceParameterCode>QntType_1HIPSum</IntegrationDeviceParameterCode>
+    <DecimalCode>None</DecimalCode>
+    <ParseType>Int</ParseType>
+  </Parameter>
+
+  <Parameter BeInstant="false" BeFinal="true" BeFinalInstant="true" BeHourly="true" BeDaily="true" BeMonthly="true">
+    <Name>QntType_1P</Name>
+    <Id>18</Id>
+    <HeatInput>One</HeatInput>
+    <DeviceParameterCode>QntType_1P</DeviceParameterCode>
+    <IntegrationDeviceParameterCode>QntType_1PSum</IntegrationDeviceParameterCode>
+    <DecimalCode>None</DecimalCode>
+    <ParseType>Int</ParseType>
+  </Parameter>
+
+  <Parameter BeInstant="true" BeFinal="false" BeFinalInstant="false" BeHourly="true" BeDaily="true" BeMonthly="true">
+    <Name>G1Type</Name>
+    <Id>19</Id>
+    <HeatInput>One</HeatInput>
+    <DeviceParameterCode>G1Type</DeviceParameterCode>
+    <IntegrationDeviceParameterCode>None</IntegrationDeviceParameterCode>
+    <DecimalCode>GTypeFractDigNum1</DecimalCode>
+    <ParseType>Float</ParseType>
+  </Parameter>
+
+  <Parameter BeInstant="true" BeFinal="false" BeFinalInstant="false" BeHourly="true" BeDaily="true" BeMonthly="true">
+    <Name>G2Type</Name>
+    <Id>20</Id>
+    <HeatInput>One</HeatInput>
+    <DeviceParameterCode>G2Type</DeviceParameterCode>
+    <IntegrationDeviceParameterCode>None</IntegrationDeviceParameterCode>
+    <DecimalCode>GTypeFractDigNum1</DecimalCode>
+    <ParseType>Float</ParseType>
+  </Parameter>
+
+  <Parameter BeInstant="true" BeFinal="false" BeFinalInstant="false" BeHourly="true" BeDaily="true" BeMonthly="true">
+    <Name>G3Type</Name>
+    <Id>21</Id>
+    <HeatInput>One</HeatInput>
+    <DeviceParameterCode>G3Type</DeviceParameterCode>
+    <IntegrationDeviceParameterCode>None</IntegrationDeviceParameterCode>
+    <DecimalCode>GTypeFractDigNum1</DecimalCode>
+    <ParseType>Float</ParseType>
+  </Parameter>
+
+  <Parameter BeInstant="false" BeFinal="false" BeFinalInstant="false" BeHourly="true" BeDaily="true" BeMonthly="false">
+    <Name>NsPrintTypeM_1</Name>
+    <Id>77</Id>
+    <HeatInput>One</HeatInput>
+    <DeviceParameterCode>NsPrintTypeM_1</DeviceParameterCode>
+    <IntegrationDeviceParameterCode>None</IntegrationDeviceParameterCode>
+    <DecimalCode>None</DecimalCode>
+    <ParseType>None</ParseType>
+  </Parameter>
+
+  <Parameter BeInstant="true" BeFinal="false" BeFinalInstant="false" BeHourly="true" BeDaily="true" BeMonthly="true">
+    <Name>t1_2Type</Name>
+    <Id>22</Id>
+    <HeatInput>Two</HeatInput>
+    <DeviceParameterCode>t1_2Type</DeviceParameterCode>
+    <IntegrationDeviceParameterCode>None</IntegrationDeviceParameterCode>
+    <DecimalCode>tTypeFractDigNum2</DecimalCode>
+    <ParseType>Int</ParseType>
+  </Parameter>
+
+  <Parameter BeInstant="true" BeFinal="false" BeFinalInstant="false" BeHourly="true" BeDaily="true" BeMonthly="true">
+    <Name>t2_2Type</Name>
+    <Id>23</Id>
+    <HeatInput>Two</HeatInput>
+    <DeviceParameterCode>t2_2Type</DeviceParameterCode>
+    <IntegrationDeviceParameterCode>None</IntegrationDeviceParameterCode>
+    <DecimalCode>tTypeFractDigNum2</DecimalCode>
+    <ParseType>Int</ParseType>
+  </Parameter>
+
+  <Parameter BeInstant="true" BeFinal="false" BeFinalInstant="false" BeHourly="true" BeDaily="true" BeMonthly="true">
+    <Name>t3_2Type</Name>
+    <Id>24</Id>
+    <HeatInput>Two</HeatInput>
+    <DeviceParameterCode>t3_2Type</DeviceParameterCode>
+    <IntegrationDeviceParameterCode>None</IntegrationDeviceParameterCode>
+    <DecimalCode>tTypeFractDigNum2</DecimalCode>
+    <ParseType>Int</ParseType>
+  </Parameter>
+
+  <Parameter BeInstant="false" BeFinal="true" BeFinalInstant="true" BeHourly="true" BeDaily="true" BeMonthly="true">
+    <Name>V1_2Type</Name>
+    <Id>25</Id>
+    <HeatInput>Two</HeatInput>
+    <DeviceParameterCode>V1_2Type</DeviceParameterCode>
+    <IntegrationDeviceParameterCode>V1_2TypeSum</IntegrationDeviceParameterCode>
+    <DecimalCode>VTypeFractDigNum2</DecimalCode>
+    <ParseType>Int</ParseType>
+  </Parameter>
+
+  <Parameter BeInstant="false" BeFinal="true" BeFinalInstant="true" BeHourly="true" BeDaily="true" BeMonthly="true">
+    <Name>V2_2Type</Name>
+    <Id>26</Id>
+    <HeatInput>Two</HeatInput>
+    <DeviceParameterCode>V2_2Type</DeviceParameterCode>
+    <IntegrationDeviceParameterCode>V2_2TypeSum</IntegrationDeviceParameterCode>
+    <DecimalCode>VTypeFractDigNum2</DecimalCode>
+    <ParseType>Int</ParseType>
+  </Parameter>
+
+  <Parameter BeInstant="false" BeFinal="true" BeFinalInstant="true" BeHourly="true" BeDaily="true" BeMonthly="true">
+    <Name>V3_2Type</Name>
+    <Id>27</Id>
+    <HeatInput>Two</HeatInput>
+    <DeviceParameterCode>V3_2Type</DeviceParameterCode>
+    <IntegrationDeviceParameterCode>V3_2TypeSum</IntegrationDeviceParameterCode>
+    <DecimalCode>VTypeFractDigNum2</DecimalCode>
+    <ParseType>Int</ParseType>
+  </Parameter>
+
+  <Parameter BeInstant="false" BeFinal="true" BeFinalInstant="true" BeHourly="true" BeDaily="true" BeMonthly="true">
+    <Name>M1_2Type</Name>
+    <Id>28</Id>
+    <HeatInput>Two</HeatInput>
+    <DeviceParameterCode>M1_2Type</DeviceParameterCode>
+    <IntegrationDeviceParameterCode>M1_2TypeSum</IntegrationDeviceParameterCode>
+    <DecimalCode>MTypeFractDigNum2</DecimalCode>
+    <ParseType>Int</ParseType>
+  </Parameter>
+
+  <Parameter BeInstant="false" BeFinal="true" BeFinalInstant="true" BeHourly="true" BeDaily="true" BeMonthly="true">
+    <Name>M2_2Type</Name>
+    <Id>29</Id>
+    <HeatInput>Two</HeatInput>
+    <DeviceParameterCode>M2_2Type</DeviceParameterCode>
+    <IntegrationDeviceParameterCode>M2_2TypeSum</IntegrationDeviceParameterCode>
+    <DecimalCode>MTypeFractDigNum2</DecimalCode>
+    <ParseType>Int</ParseType>
+  </Parameter>
+
+  <Parameter BeInstant="false" BeFinal="true" BeFinalInstant="true" BeHourly="true" BeDaily="true" BeMonthly="true">
+    <Name>M3_2Type</Name>
+    <Id>30</Id>
+    <HeatInput>Two</HeatInput>
+    <DeviceParameterCode>M3_2Type</DeviceParameterCode>
+    <IntegrationDeviceParameterCode>M3_2TypeSum</IntegrationDeviceParameterCode>
+    <DecimalCode>MTypeFractDigNum2</DecimalCode>
+    <ParseType>Int</ParseType>
+  </Parameter>
+
+  <Parameter BeInstant="true" BeFinal="false" BeFinalInstant="false" BeHourly="true" BeDaily="true" BeMonthly="true">
+    <Name>P1_2Type</Name>
+    <Id>31</Id>
+    <HeatInput>Two</HeatInput>
+    <DeviceParameterCode>P1_2Type</DeviceParameterCode>
+    <IntegrationDeviceParameterCode>None</IntegrationDeviceParameterCode>
+    <DecimalCode>PTypeFractDigNum2</DecimalCode>
+    <ParseType>Int</ParseType>
+  </Parameter>
+
+  <Parameter BeInstant="true" BeFinal="false" BeFinalInstant="false" BeHourly="true" BeDaily="true" BeMonthly="true">
+    <Name>P2_2Type</Name>
+    <Id>32</Id>
+    <HeatInput>Two</HeatInput>
+    <DeviceParameterCode>P2_2Type</DeviceParameterCode>
+    <IntegrationDeviceParameterCode>None</IntegrationDeviceParameterCode>
+    <DecimalCode>PTypeFractDigNum2</DecimalCode>
+    <ParseType>Int</ParseType>
+  </Parameter>
+
+  <Parameter BeInstant="false" BeFinal="true" BeFinalInstant="true" BeHourly="true" BeDaily="true" BeMonthly="true">
+    <Name>Mg_2TypeP</Name>
+    <Id>33</Id>
+    <HeatInput>Two</HeatInput>
+    <DeviceParameterCode>Mg_2TypeP</DeviceParameterCode>
+    <IntegrationDeviceParameterCode>Mg_2TypePSum</IntegrationDeviceParameterCode>
+    <DecimalCode>MgTypeFractDigNum2</DecimalCode>
+    <ParseType>Int</ParseType>
+  </Parameter>
+
+  <Parameter BeInstant="false" BeFinal="true" BeFinalInstant="true" BeHourly="true" BeDaily="true" BeMonthly="true">
+    <Name>Qo_2TypeP</Name>
+    <Id>34</Id>
+    <HeatInput>Two</HeatInput>
+    <DeviceParameterCode>Qo_2TypeP</DeviceParameterCode>
+    <IntegrationDeviceParameterCode>Qo_2TypePSum</IntegrationDeviceParameterCode>
+    <DecimalCode>QoTypeFractDigNum2</DecimalCode>
+    <ParseType>Int</ParseType>
+  </Parameter>
+
+  <Parameter BeInstant="false" BeFinal="true" BeFinalInstant="true" BeHourly="true" BeDaily="true" BeMonthly="true">
+    <Name>Qg_2TypeP</Name>
+    <Id>35</Id>
+    <HeatInput>Two</HeatInput>
+    <DeviceParameterCode>Qg_2TypeP</DeviceParameterCode>
+    <IntegrationDeviceParameterCode>Qg_2TypePSum</IntegrationDeviceParameterCode>
+    <DecimalCode>QoTypeFractDigNum2</DecimalCode>
+    <ParseType>Int</ParseType>
+  </Parameter>
+
+  <Parameter BeInstant="true" BeFinal="false" BeFinalInstant="false" BeHourly="true" BeDaily="true" BeMonthly="true">
+    <Name>dt_2TypeP</Name>
+    <Id>36</Id>
+    <HeatInput>Two</HeatInput>
+    <DeviceParameterCode>dt_2TypeP</DeviceParameterCode>
+    <IntegrationDeviceParameterCode>None</IntegrationDeviceParameterCode>
+    <DecimalCode>dtTypeFractDigNum2</DecimalCode>
+    <ParseType>Int</ParseType>
+  </Parameter>
+
+  <Parameter BeInstant="true" BeFinal="false" BeFinalInstant="false" BeHourly="true" BeDaily="true" BeMonthly="true">
+    <Name>tsw_2TypeP</Name>
+    <Id>37</Id>
+    <HeatInput>Two</HeatInput>
+    <DeviceParameterCode>tsw_2TypeP</DeviceParameterCode>
+    <IntegrationDeviceParameterCode>None</IntegrationDeviceParameterCode>
+    <DecimalCode>tswTypeFractDigNum2</DecimalCode>
+    <ParseType>Int</ParseType>
+  </Parameter>
+
+  <Parameter BeInstant="true" BeFinal="false" BeFinalInstant="false" BeHourly="true" BeDaily="true" BeMonthly="true">
+    <Name>ta_2TypeP</Name>
+    <Id>38</Id>
+    <HeatInput>Two</HeatInput>
+    <DeviceParameterCode>ta_2TypeP</DeviceParameterCode>
+    <IntegrationDeviceParameterCode>None</IntegrationDeviceParameterCode>
+    <DecimalCode>taTypeFractDigNum2</DecimalCode>
+    <ParseType>Int</ParseType>
+  </Parameter>
+
+  <Parameter BeInstant="false" BeFinal="true" BeFinalInstant="true" BeHourly="true" BeDaily="true" BeMonthly="true">
+    <Name>QntType_2HIP</Name>
+    <Id>39</Id>
+    <HeatInput>Two</HeatInput>
+    <DeviceParameterCode>QntType_2HIP</DeviceParameterCode>
+    <IntegrationDeviceParameterCode>QntType_2HIPSum</IntegrationDeviceParameterCode>
+    <DecimalCode>None</DecimalCode>
+    <ParseType>Int</ParseType>
+  </Parameter>
+
+  <Parameter BeInstant="false" BeFinal="true" BeFinalInstant="true" BeHourly="true" BeDaily="true" BeMonthly="true">
+    <Name>QntType_2P</Name>
+    <Id>40</Id>
+    <HeatInput>Two</HeatInput>
+    <DeviceParameterCode>QntType_2P</DeviceParameterCode>
+    <IntegrationDeviceParameterCode>QntType_2PSum</IntegrationDeviceParameterCode>
+    <DecimalCode>None</DecimalCode>
+    <ParseType>Int</ParseType>
+  </Parameter>
+
+  <Parameter BeInstant="true" BeFinal="false" BeFinalInstant="false" BeHourly="true" BeDaily="true" BeMonthly="true">
+    <Name>G1_2Type</Name>
+    <Id>41</Id>
+    <HeatInput>Two</HeatInput>
+    <DeviceParameterCode>G1_2Type</DeviceParameterCode>
+    <IntegrationDeviceParameterCode>None</IntegrationDeviceParameterCode>
+    <DecimalCode>GTypeFractDigNum2</DecimalCode>
+    <ParseType>Float</ParseType>
+  </Parameter>
+
+  <Parameter BeInstant="true" BeFinal="false" BeFinalInstant="false" BeHourly="true" BeDaily="true" BeMonthly="true">
+    <Name>G2_2Type</Name>
+    <Id>42</Id>
+    <HeatInput>Two</HeatInput>
+    <DeviceParameterCode>G2_2Type</DeviceParameterCode>
+    <IntegrationDeviceParameterCode>None</IntegrationDeviceParameterCode>
+    <DecimalCode>GTypeFractDigNum2</DecimalCode>
+    <ParseType>Float</ParseType>
+  </Parameter>
+
+  <Parameter BeInstant="true" BeFinal="false" BeFinalInstant="false" BeHourly="true" BeDaily="true" BeMonthly="true">
+    <Name>G3_2Type</Name>
+    <Id>43</Id>
+    <HeatInput>Two</HeatInput>
+    <DeviceParameterCode>G3_2Type</DeviceParameterCode>
+    <IntegrationDeviceParameterCode>None</IntegrationDeviceParameterCode>
+    <DecimalCode>GTypeFractDigNum2</DecimalCode>
+    <ParseType>Float</ParseType>
+  </Parameter>
+
+  <Parameter BeInstant="false" BeFinal="false" BeFinalInstant="false" BeHourly="false" BeDaily="false" BeMonthly="false">
+    <Name>DopInpImpP_Type</Name>
+    <Id>81</Id>
+    <HeatInput>Two</HeatInput>
+    <DeviceParameterCode>DopInpImpP_Type</DeviceParameterCode>
+    <IntegrationDeviceParameterCode>None</IntegrationDeviceParameterCode>
+    <DecimalCode>None</DecimalCode>
+    <ParseType>None</ParseType>
+  </Parameter>
+
+  <Parameter BeInstant="false" BeFinal="false" BeFinalInstant="false" BeHourly="true" BeDaily="true" BeMonthly="false">
+    <Name>NsPrintTypeM_2</Name>
+    <Id>78</Id>
+    <HeatInput>Two</HeatInput>
+    <DeviceParameterCode>NsPrintTypeM_2</DeviceParameterCode>
+    <IntegrationDeviceParameterCode>None</IntegrationDeviceParameterCode>
+    <DecimalCode>None</DecimalCode>
+    <ParseType>None</ParseType>
+  </Parameter>
+
+  <Parameter BeInstant="true" BeFinal="false" BeFinalInstant="false" BeHourly="true" BeDaily="true" BeMonthly="true">
+    <Name>P3P_Type</Name>
+    <Id>82</Id>
+    <HeatInput>One</HeatInput>
+    <DeviceParameterCode>P3P_Type</DeviceParameterCode>
+    <IntegrationDeviceParameterCode>None</IntegrationDeviceParameterCode>
+    <DecimalCode>PTypeFractDigNum1</DecimalCode>
+    <ParseType>Int</ParseType>
+  </Parameter>
+</ParametersCollection>
+

@@ -1,0 +1,9 @@
+﻿using System;
+
+namespace EnergyTechAudit.PowerAccounting.DeviceReader.Common.Attributes.EclApplications.A314
+{
+    [AttributeUsage(AttributeTargets.Method, AllowMultiple = false)]
+    public class A3142Attribute : Attribute
+    {
+    }
+}
