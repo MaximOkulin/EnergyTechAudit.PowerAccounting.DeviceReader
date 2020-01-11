@@ -85,10 +85,6 @@
       <Project>{3b109a65-22e1-4927-acfc-936447d607aa}</Project>
       <Name>EnergyTechAudit.PowerAccounting.DeviceReader.Analytics</Name>
     </ProjectReference>
-    <ProjectReference Include="..\EnergyTechAudit.PowerAccounting.DeviceReader.Csd\EnergyTechAudit.PowerAccounting.DeviceReader.Csd.csproj">
-      <Project>{0b8b0d48-e4f5-406f-ad48-a58655cc4a4b}</Project>
-      <Name>EnergyTechAudit.PowerAccounting.DeviceReader.Csd</Name>
-    </ProjectReference>
     <ProjectReference Include="..\EnergyTechAudit.PowerAccounting.DeviceReader.EtaModem\EnergyTechAudit.PowerAccounting.DeviceReader.EtaModem.csproj">
       <Project>{8990a8ec-8c42-4152-8697-acabe44232d3}</Project>
       <Name>EnergyTechAudit.PowerAccounting.DeviceReader.EtaModem</Name>

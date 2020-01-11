@@ -115,10 +115,6 @@
       <Project>{9c5ea6b3-90b4-44e1-bd25-76861183c7f8}</Project>
       <Name>EnergyTechAudit.PowerAccounting.DeviceReader.Common.Server</Name>
     </ProjectReference>
-    <ProjectReference Include="..\EnergyTechAudit.PowerAccounting.DeviceReader.Csd\EnergyTechAudit.PowerAccounting.DeviceReader.Csd.csproj">
-      <Project>{0b8b0d48-e4f5-406f-ad48-a58655cc4a4b}</Project>
-      <Name>EnergyTechAudit.PowerAccounting.DeviceReader.Csd</Name>
-    </ProjectReference>
     <ProjectReference Include="..\EnergyTechAudit.PowerAccounting.DeviceReader.Ecl110\EnergyTechAudit.PowerAccounting.DeviceReader.Ecl110.csproj">
       <Project>{b4db08c0-7ae7-4da7-aece-fee549cec29f}</Project>
       <Name>EnergyTechAudit.PowerAccounting.DeviceReader.Ecl110</Name>
